@@ -4,30 +4,30 @@ function TopButtons() {
   const cities = [
     {
       id: 1,
-      title: "London",
+      title: "Santiago",
     },
     {
       id: 2,
-      title: "Sydney",
+      title: "La serena",
     },
     {
       id: 3,
-      title: "Tokyo",
+      title: "Antofagasta",
     },
     {
       id: 4,
-      title: "Toronto",
+      title: "Puerto Montt",
     },
     {
       id: 5,
-      title: "Paris",
+      title: "Punta arenas",
     },
   ];
 
   return (
     <div className="flex items-center justify-around my-6">
       {cities.map((city) => (
-        <button key={city.id} className="text-white text-lg font-medium">
+        <button key={city.id} className="text-white text-lg font-medium ">
           {city.title}
         </button>
       ))}
